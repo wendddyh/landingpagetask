@@ -1,2 +1,278 @@
 /* stylesheet */
 
+body{
+
+background : white;
+max-width: 1920px;
+margin: auto;
+
+}
+/*navigation menu */
+
+.header{
+    display:flex;
+    flex-direction: row;
+    background-color: #61aaaa;
+    padding: 0px 60px;
+   
+
+}
+
+#logo{
+    display: flex;
+    padding: 0px 25px;
+    flex-grow: 2;
+
+    
+}
+
+#logo h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+
+
+}
+#navbar{
+    display: flex;
+    flex-grow: 2;
+    flex-direction: row-reverse;
+}
+
+.navbar ul{
+
+    display: flex;
+    flex-direction: row-reverse;
+    float: right;
+}
+
+ul{
+    list-style-type: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+li{
+    margin: 2px 20px;
+    padding: 8px;
+}
+
+li a{
+    color: rgb(10, 10, 10);
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+
+}
+
+li:hover{
+    
+    background-color: rgb(16, 95, 62);
+    
+    
+
+}
+
+li a:hover{
+    color: white;
+}
+
+
+/*main cookies banner */
+
+.banner{
+    display: flex;
+    align-content: center;
+    padding: 55px 150px;
+    background-color: #66bfbf;
+    
+    
+}
+.main-call {
+  
+    background-color: #66bfbf;
+    padding-left: 20px;
+    flex-grow: 2;
+    
+
+}
+
+
+h1{
+    font-size: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    padding-top: 50px;
+    
+    
+
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    padding-right: 30px;
+    margin: 40px 0px
+    
+    
+}
+
+.main-call button{
+    background-color: rgb(26, 129, 115);
+    color: white;
+    border-radius: 4px;
+    padding: 15px 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+
+
+.main-call button:hover{
+    background-color: #1d5858;
+    color: white;
+
+}
+#call-image{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row-reverse;
+
+}
+
+img{
+    width: 70%;
+    height: auto;
+    
+    
+}
+
+
+/*catogeries box*/
+
+#content{
+    padding: 50px 150px;
+
+
+}
+
+#content h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+
+.minibox{
+    align-self: flex-end;
+    display: flex;
+    align-content: space-between;
+
+    
+}
+#cookie1{
+    text-align: center;
+    
+}
+#cookie2{
+    text-align: center;
+}
+#cookie3{
+    text-align: center;
+}
+#cookie4{
+    text-align: center;
+}
+
+figcaption{
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    
+}
+
+/*quote box*/
+
+.quote{
+    background-color: #66bfbf;
+    padding: 50px 150px;
+}
+
+.quote p{
+    text-align:center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 800;
+}
+.quote h5{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 14px;
+    text-align: right;
+}
+
+
+/*call to action*/
+
+.container{
+    background-color: white;
+    display: flex;
+    padding: 50px 150px;
+
+}
+
+#call-action{
+    flex-grow: 1;
+    padding-left: 50px;
+
+
+}
+
+#call-action h3{
+    font-size: 33px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+}
+
+#call-action p{
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#call-button{
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+    
+
+}
+#call-button button{
+    background-color:  rgb(26, 129, 115);
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    padding: 15px 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    
+
+}
+
+#call-button button:hover{
+    background-color: #1d5858;
+    color: white;
+
+}
+
+
+#copyright{
+    padding: 5px 60px;
+    text-align: center;
+    font-size: 14px;
+    background-color: #1d5858;
+    color: #66bfbf;
+}
+
